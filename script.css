@@ -1,0 +1,118 @@
+body {
+    background-color: slategrey;
+    height: 900px;
+}
+
+#navItems {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    margin-bottom: 0;
+    font-size: 1.2em;
+}
+
+#navBar {
+    padding: 0;
+    margin-top: 2px;
+    margin-bottom: 4px;
+    border-bottom: solid black 1px;
+}
+
+.back-to-top {
+    position: fixed;
+    right: 2rem;
+    bottom: 2rem;
+    color: whitesmoke;
+    border: solid 1px;
+}
+
+.hidden {
+    display: none;
+}
+
+#avatarCard {
+    width: 95vw;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    padding: 1px;
+}
+
+.card-img-top {
+    height: 20em;
+}
+
+.card-img-avatar {
+    position: relative;
+    width: 130px;
+    bottom: 4.5em;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: solid 3px;
+}
+
+.aboutText {
+    position: relative;
+    bottom: 75px;
+}
+
+#contactIcons {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+}
+
+.icon {
+    color: slategrey;
+    font-size: 2em;
+}
+
+.toolIcon{
+    width: 50px;
+}
+
+.aboutHeader {
+    position: relative;
+    bottom: 3.5em;
+}
+.aboutHeader1{
+    padding-right: 50px;
+}
+.aboutHeader2{
+    padding-left: 50px;
+}
+
+#languageAndTools {
+    position: relative;
+    bottom: 4em;
+}
+.icon:hover{
+    color: #0077B5;
+}
+.fa-github:hover{
+    color: black;
+}
+.projectCards{
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 1em;
+    width: 50%;
+    border: solid slategrey 1px;
+}
+.projectsHr{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.projectBtns{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.projectGithubBtn{
+    margin-bottom: .5em;
+}
+.projectBtns{
+    width: 10em;
+}
